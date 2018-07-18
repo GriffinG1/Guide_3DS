@@ -18,6 +18,7 @@ During this process, we also setup programs such as the following:
 +  **Luma3DS Updater** *(updates your CFW installation easily)*
 +  **GodMode9** *(multipurpose tool which can do NAND and cartridge functions)*
 +  **Homebrew Launcher Loader** *(launches the Homebrew Launcher)*
++  **QRaken** *(Allows QR code installs from GitHub)*
 
 ### What You Need
 
@@ -29,6 +30,7 @@ During this process, we also setup programs such as the following:
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest) *(the `.cia` and `.3dsx` files)*
 * The latest release of [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest)
 * The latest release of [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(the `.cia` file)*
+* The latest release of [QRaken](https://github.com/BernardoGiordano/QRaken/releases/tag/v1.2) *(the `.cia` file)*
 * [setup_ctrnand_luma3ds.gm9]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }}){:download}
 * [cleanup_sd_card.gm9]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }}){:download}
 
@@ -48,6 +50,7 @@ During this process, we also setup programs such as the following:
 1. Copy `DSP1.cia` to the `/cias/` folder on your SD card
 1. Copy `Anemone3DS.cia` to the `/cias/` folder on your SD card
 1. Copy `Checkpoint.cia` to the `/cias/` folder on your SD card
+1. Copy `QRaken.cia` to the `/cias/` folder on your SD card
 
     ![]({{ "/images/screenshots/cias-file-layout.png" | absolute_url }})
     {: .notice--info}
